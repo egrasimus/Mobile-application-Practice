@@ -1,0 +1,6 @@
+include ':Layouttype'
+include ':ClickButtons'
+include ':Task2'
+include ':Task1'
+include ':app'
+rootProject.name = "practice1"
