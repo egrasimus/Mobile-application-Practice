@@ -21,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listCountSensor = findViewById(R.id.list_view);
-        SensorManager sensorManager =
-                (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensorManager =  (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         List<Sensor> sensors = sensorManager.getSensorList(Sensor.TYPE_ALL);
 
         // создаем список для отображения в ListView найденных датчиков
