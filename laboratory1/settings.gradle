@@ -1,0 +1,7 @@
+include ':driveryandex'
+include ':yandexdriver'
+include ':Yandexdriver'
+include ':YandexDriver'
+include ':yandexmap'
+include ':app'
+rootProject.name = "laboratory1"
